@@ -4,11 +4,11 @@ Code accompanying the dissertation *From Prediction to Actionable Support: An Ex
 
 ## What this is
 
-A checkpoint-staged machine learning pipeline that predicts academic risk for students enrolled in two foundation-level STEM courses — MATH400 (Foundation Mathematics) and COMP401 (Foundation Problem Solving) — at four points in the semester: Weeks 3, 6, 8 and 12. The pipeline compares Logistic Regression, Random Forest and XGBoost under forward-semester validation, applies Platt calibration where it improves the Brier score, selects operational thresholds against F2, and generates global and case-level SHAP explanations for the selected model.
+A checkpoint-staged machine learning pipeline that predicts academic risk for students enrolled in two foundation-level STEM courses, MATH400 (Foundation Mathematics) and COMP401 (Foundation Problem Solving), at four points in the semester: Weeks 3, 6, 8 and 12. The pipeline compares Logistic Regression, Random Forest and XGBoost under forward-semester validation, applies Platt calibration where it improves the Brier score, selects operational thresholds against F2, and generates global and case-level SHAP explanations for the selected model.
 
 ## The dataset is not included
 
-The data analysed in this study consists of institutional student records released under ethics approval (AUTEC reference 26/237). It was provided to the research team in de-identified form by the programme administrator acting as data custodian, and it **remains the property of Auckland University of Technology**. It is not redistributed here in any form, and no processed or checkpoint-level dataset is uploaded. Any file paths, connection strings or data-loading routines in the scripts below refer to that restricted dataset and will not execute against the public repository. `data/` is gitignored.
+The data analysed in this study consists of institutional student records released under ethics approval (AUTEC reference 26/237). It **remains the property of Auckland University of Technology**. It is not redistributed here in any form, and no processed or checkpoint-level dataset is uploaded. Any file paths, connection strings or data-loading routines in the scripts below refer to that restricted dataset and will not execute against the public repository.
 
 ## What the code does
 
